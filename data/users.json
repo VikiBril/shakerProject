@@ -1,0 +1,17 @@
+[
+    {
+      "id": "1",
+      "name": "Shahar",
+      "pic": "./images/shahar.png"
+    },
+    {
+      "id": "2",
+      "name": "efrat",
+      "pic": "./images/efrat.png"
+    },
+    {
+      "id": "16",
+      "name": "yonit",
+      "pic": "./images/yonit.png"
+    }
+]

@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header,body,section,nav{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 255px;
+    background: #f8f8f8;
+}
+#study_menu{
+    width: 100%;
+    height: 160px;
+}
+#left_study{
+    float: left;
+    width: 40%;
+    height: 50px;
+    margin-top: 110px;
+}
+#right_study{
+    float: right;
+    width: 40%;
+    height: 50px;
+    margin-top: 110px;
+}
+#study_menu a{  
+    margin-left:20px;
+    text-decoration: none;
+    color: #3d8af7;
+
+}#left_study a:hover , #right_study a:hover{
+    border-bottom: 1px solid #3d8af7;
+}
+
+#logo_shaker{
+    background-image: url("../images/Shaker_logo.png");
+    height: 160px;
+    width: 160px;
+    float: left;
+}
+#more_button{
+    height: 30px;
+    width: 180px;
+    background-color: #d6d6d6;
+    position: fixed;
+    margin: 20% auto;
+    text-align: center;
+}
+.logos{
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+#electric_logo{
+    background-image: url("../images/electric.png");
+}
+#plastic_logo{
+    background-image: url("../images/plastic.png");
+    background-size: 45px;
+}
+#software_logo{
+    background-image: url("../images/software.png");
+}
+#mang_logo{
+    background-image: url("../images/mang.png");
+}
+#chemical_logo{
+    background-image: url("../images/chemical.png");
+}
+#indu_logo{
+    background-image: url("../images/indus.png");
+    background-size: 45px;
+    padding-top: 65px;
+}
+#inside_logo{
+    background-image: url("../images/inside.png");
+    background-size: 45px;
+}
+#jewllery_logo{
+    background-image: url("../images/jewellery.png");
+    background-size: 42px;
+}
+#fashion_logo{
+    background-image: url("../images/fashion.png");
+    background-size: 40px;
+}
+#textile_logo{
+    background-image: url("../images/textile.png");
+    padding-top: 65px;
+}
+#graphic_logo{
+    background-image: url("../images/graphic.png");
+    padding-right: 15px;
+}
+#art_logo{
+    background-image: url("../images/art.png");
+}
+#pref_menu{
+    width: 100%;
+    height: 95px;
+    text-align: center;
+    border-top: 1px solid #b71c1c;
+}
+#right_pref{
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+#left_pref{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+#pref_menu a{ 
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    display: block;
+    width: 20%;
+    float: right;
+    margin-top: 20px;
+}
+#right_pref a:hover{
+    border-bottom: 1px solid #b71c1c;
+}
+#pref_menu span{
+    font-size: 14px;
+    display: block;
+}
+.selected{
+    border-bottom:  2px solid #b71c1c;
+}
+#left_pref{
+    margin-top: 10px;
+}
+#user_logo{
+    margin-top: 5%;
+
+}
+#plus_logo {
+    background-image: url("../images/plus.png");
+    background-size: 25px;
+}
+#heart_logo{
+    background-image: url("../images/icons8-heart-outline-filled-50.png");
+    background-size: 25px;
+}
+#bell_logo{
+    background-image: url("../images/icons8-bell-48.png");
+    background-size: 25px;
+}
+#wrapper{
+    margin : 0 auto;
+    width: 100%;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid #000000;    
+    float: right;
+    margin: 10px;
+}
+.container img{
+    width: 150px;
+    margin: 10px 50px;
+}
+.container a{
+    float: right;
+}
+.container .small_logos{
+    width: 25px;
+    height: 25px;
+     margin: auto auto;
+}
+.container p{
+    text-align: right;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.small_container{
+    border: 1px solid #000000;
+    margin-top: 10px;
+    
+}
+
+
+.notesbox{
+    width:305px;
+    height: 300px;
+    float: right;
+    margin-bottom: 10vh;
+    margin-right: 5vw;
+    bottom:0px;
+}
+
+.notesbox textarea{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.notesbox a{
+    background-color: #e62b2b;
+    color: #ffffff !important;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 12vw;
+}
+
+.proj_info{
+    margin-top: 50px;
+}
+
+/*--------------------------------
+    Media queries!
+---------------------------------*/
+
+@media only screen and (max-width:480px){
+    header{
+        width: 100%;
+    }
+    #study_menu{
+        display: none;
+    }
+    #pref_menu{
+        width: 100%;
+        height: 250px;
+        border-top: none;
+    }
+    #right_pref{
+        width: 100%;
+        height: 150px;
+        border-bottom: 1px solid #b71c1c;
+    }
+    #left_pref{
+        width: 100%;
+        height: 100px;
+    }
+    #wrapper{
+        width: 100%;
+    }
+    .container{
+        height: 35%;
+        width: 80%;
+        margin-right: 35px;
+    }
+    .small_container{
+        margin-top: 15%;
+    }
+    #bread_crumbs{
+        text-align: right;
+        margin: 2% 5%;
+    }
+    .proj_info{
+        text-align: right;
+        float: right;
+        font-size: 10px;
+        padding-right: 5%;
+    }
+    .proj_pic{
+        float: left;
+        width: 100%;
+        padding-left: 15%;
+    }
+    #heart_logo{
+        display: block;
+        float: left;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:769px){
+    header{
+        width: 100%;
+        height: 400px;
+    } 
+    #wrapper{
+        width: 90%;
+    }
+    #study_menu{
+        border-bottom: 1px solid #b71c1c; 
+        font-size: 10px;
+    }
+    #indu_logo,#plastic_logo,#jewllery_logo,#fashion_logo,#textile_logo,#graphic_logo,#art_logo{
+        background-size: 110%;    
+    }
+    #inside_logo{
+        padding-left: 9px;
+    }
+    #logo_shaker{
+        width: 15%;
+       margin-top: 25px;
+    }
+    #left_study{
+        width: 40%;
+    }
+    #right_study{
+        width: 40%;
+    }
+    #pref_menu{
+        width: 100%;
+        height: 200px;
+        border-top: none;
+    }
+    #right_pref{
+        width: 100%;
+        height: 100px;
+    }
+    #left_pref{
+        width: 100%;
+        height: 100px;
+    }
+   
+    #bread_crumbs{
+        text-align: right;
+        margin: 2% 5%;
+    }
+    .proj_info{
+        text-align: right;
+        float: right;
+        padding-right: 5%;
+    }
+    .proj_pic{
+        float: left;
+        width: 100%;
+        padding-left: 35%;
+    }
+    #div_{
+        top: 600px;
+        right: 405px;
+    }
+}
+@media only screen and (min-width:770px){
+    #left_study, #right_study{
+        width: 40%;
+        font-size: 15px;
+    }
+    #wrapper {
+        margin: 0 auto;
+        width: 100%;
+        flex-flow: row-reverse;
+    }
+    #bread_crumbs{
+        text-align: right;
+        margin: 2% 5%;
+    }
+    .proj_info{
+        text-align: right;
+        float: right;
+        width: 55%;
+        padding-right: 5%;
+    }
+    #projpic{
+        width: 450px;
+        padding: 3%;
+        margin-right:300px;
+        position: relative;
+    }
+    #rec1{
+
+        position: relative;
+        top: 242px;
+        left: 65%;
+        width: 299px;
+        height: 150px;
+        border-style: dotted;
+        margin-top: 10px;
+        border-radius: 15px;
+    }
+    #rec1 input{
+        width: 100%;
+        height: 50%;
+    }
+    #rec1 a{
+        border: 1px solid #b32525;
+        background-color: #b32525;
+        float: none;
+        position: relative;
+    }
+
+}
